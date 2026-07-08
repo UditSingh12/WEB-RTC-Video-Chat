@@ -10,6 +10,14 @@ A production-ready multi-peer video conferencing application built with:
 - Custom Node.js Server
 - Docker & Docker Compose
 
+This project is ready to be pushed to GitHub and run locally after installing dependencies.
+
+## Prerequisites
+
+- Node.js 18 or newer
+- npm
+- A browser with camera and microphone access
+
 ---
 
 # Features
@@ -141,6 +149,10 @@ Install dependencies:
 
 npm install
 
+Create a local environment file:
+
+copy .env.example .env
+
 Run development server:
 
 npm run dev
@@ -148,6 +160,10 @@ npm run dev
 Open:
 
 http://localhost:3000
+
+## GitHub push notes
+
+This repository is already configured to ignore local dependencies, build output, and environment files. You can safely commit the project and push it to GitHub.
 
 ---
 
